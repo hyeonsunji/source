@@ -1,0 +1,131 @@
+1. anaconda
+
+C:\Users\hyeon.ji>d:
+
+D:\>cd source\python   
+
+D:\source\python>conda create python35   -- 현재 있는 디렉토리의 의미는 ?
+
+
+Examples:
+
+    conda create -n myenv sqlite
+
+D:\source\python>conda create -n python35
+Fetching package metadata .........
+.Solving package specifications: .
+Package plan for installation in environment C:\Users\hyeon.ji\Anaconda3\envs\python35:
+
+The following empty environments will be CREATED:
+
+C:\Users\hyeon.ji\Anaconda3\envs\python35
+
+Proceed ([y]/n)? y
+
+#
+# To activate this environment, use:
+# > activate python35
+#
+# To deactivate this environment, use:
+# > deactivate python35
+#
+# * for power-users using bash, you must source
+#
+
+
+D:\source\python>activate python35
+
+(python35) D:\source\python>conda install pip
+Fetching package metadata .........
+Solving package specifications: ..........
+
+Package plan for installation in environment C:\Users\hyeon.ji\Anaconda3\envs\python35:
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-3.6.0               |                0        31.7 MB
+    setuptools-27.2.0          |           py36_1         758 KB
+    wheel-0.29.0               |           py36_0         129 KB
+    pip-9.0.1                  |           py36_1         1.7 MB
+    ------------------------------------------------------------
+                                           Total:        34.2 MB
+
+The following NEW packages will be INSTALLED:
+
+    pip:            9.0.1-py36_1
+    python:         3.6.0-0
+    setuptools:     27.2.0-py36_1
+    vs2015_runtime: 14.0.25123-0
+    wheel:          0.29.0-py36_0
+
+Proceed ([y]/n)? y
+
+Fetching packages ...
+python-3.6.0-0 100% |###############################| Time: 0:00:07   4.56 MB/s
+setuptools-27. 100% |###############################| Time: 0:00:00   6.15 MB/s
+wheel-0.29.0-p 100% |###############################| Time: 0:00:00   3.62 MB/s
+pip-9.0.1-py36 100% |###############################| Time: 0:00:00   3.78 MB/s
+Extracting packages ...
+[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|##################################################| 100%
+
+(python35) D:\source\python>
+
+2. PyCham : 이클립스 처럼 실행 디버깅 등..
+
+   Local : 로컬 설치본
+   
+
+
+3. Jupyter Notebook 
+
+1) notebook 만들기
+C:\Users\hyeon.ji>jupyter notebook   ----> 현재 dir 기준으로 home이 보이고 , 파일도 선택가능, 세이브도
+[I 13:39:43.113 NotebookApp] [nb_conda_kernels] enabled, 2 kernels found
+[I 13:39:43.119 NotebookApp] Writing notebook server cookie secret to C:\Users\hyeon.ji\AppData\Roaming\jupyter\runtime\notebook_cookie_secret
+[I 13:39:43.738 NotebookApp] [nb_anacondacloud] enabled
+[I 13:39:44.096 NotebookApp] \u2713 nbpresent HTML export ENABLED
+[W 13:39:44.096 NotebookApp] \u2717 nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 13:39:44.119 NotebookApp] [nb_conda] enabled
+[I 13:39:44.194 NotebookApp] Serving notebooks from local directory: C:\Users\hyeon.ji
+[I 13:39:44.194 NotebookApp] 0 active kernels
+[I 13:39:44.195 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 13:39:44.195 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 13:42:43.120 NotebookApp] Creating new notebook in
+[I 13:42:43.124 NotebookApp] Writing notebook-signing key to C:\Users\hyeon.ji\AppData\Roaming\jupyter\notebook_secret
+[I 13:42:44.495 NotebookApp] Kernel started: d93f1881-6294-4e24-9eb7-263f54328e93
+[I 13:44:44.423 NotebookApp] Saving file at /Untitled.ipynb
+[W 13:48:16.229 NotebookApp] Notebook __notebook__.ipynb is not trusted
+[I 13:48:16.425 NotebookApp] Kernel started: 7502812a-dde7-4f2b-8cd0-6f1fce76528c
+[I 13:50:17.060 NotebookApp] Saving file at /__notebook__.ipynb
+[W 13:50:17.063 NotebookApp] Saving untrusted notebook __notebook__.ipynb
+[I 13:51:24.393 NotebookApp] Creating new notebook in
+[I 13:51:25.715 NotebookApp] Kernel started: b1fb35ec-3408-401a-86e0-7be324e26646
+[I 13:53:25.984 NotebookApp] Saving file at /Untitled1.ipynb
+
+
+2)  new 명령어로 note 만들기 (현재 conda root 로  , condaroot 와 같은 다양한 것을 만들 수 있다. --> 한번 해보기
+    ctrl + enter 실행
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
